@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: craps-pkg-sharnajh
+Version: 0.1.0
+Summary: Craps dice roll and nickname combos
+Home-page: https://github.com/sharnajh/craps_pkg.git
+Author: Sharna Hossain
+Author-email: sharnajh@gmail.com
+License: BSD 2-clause
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5

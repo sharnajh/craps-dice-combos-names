@@ -1,25 +1,18 @@
 from setuptools import setup
 
-from setuptools import setup
-
 setup(
-    name='craps_pkg',
+    name='craps-pkg-sharnajh',
     version='0.1.0',    
     description='Craps dice roll and nickname combos',
-    url='https://github.com/shuds13/pyexample',
-    author='Stephen Hudson',
-    author_email='shudson@anl.gov',
+    url='https://github.com/sharnajh/craps_pkg.git',
+    author='Sharna Hossain',
+    author_email='sharnajh@gmail.com',
     license='BSD 2-clause',
-    packages=['pyexample'],
-    install_requires=['mpi4py>=2.0',
-                      'numpy',                     
-                      ],
+    packages=['craps_pkg'],
 
     classifiers=[
-        'Development Status :: 1 - Planning',
-        'Intended Audience :: Science/Research',
         'License :: OSI Approved :: BSD License',  
-        'Operating System :: POSIX :: Linux',        
+        'Operating System :: MacOS',        
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',

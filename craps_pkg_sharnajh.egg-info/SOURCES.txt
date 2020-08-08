@@ -1,0 +1,7 @@
+setup.py
+craps_pkg/__init__.py
+craps_pkg/craps_pkg.py
+craps_pkg_sharnajh.egg-info/PKG-INFO
+craps_pkg_sharnajh.egg-info/SOURCES.txt
+craps_pkg_sharnajh.egg-info/dependency_links.txt
+craps_pkg_sharnajh.egg-info/top_level.txt
