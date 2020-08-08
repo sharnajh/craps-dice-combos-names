@@ -9,6 +9,7 @@ Craps Nicknames is a tiny Python package that returns a randomized dice roll wit
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install craps-pkg.
+
 ```python
 pip install -i https://test.pypi.org/simple/ craps-dice-combos-names
 ```
@@ -24,8 +25,16 @@ craps_pkg.craps_roll()
 # "nickname": "Australian yo"
 # }
 
-craps_pkg.get_combo_name([2,2])
-# returns "Ballerina"
+craps_pkg.get_combo_name([2,2]) # returns "Ballerina"
+
+craps_pkg.get_dice_combos()
+# returns {
+    # 'Snake Eyes': [1, 1],
+    # 'Australian yo': [1, 2],
+    # ...
+    # 'Six five no jive': [6, 5],
+    # 'Midnight': [6, 6]
+}
 ```
 
 ## Contributing
