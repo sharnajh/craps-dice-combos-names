@@ -34,7 +34,7 @@ craps_pkg.get_dice_combos()
     # ...
     # 'Six five no jive': [6, 5],
     # 'Midnight': [6, 6]
-}
+# }
 ```
 
 ## Contributing
