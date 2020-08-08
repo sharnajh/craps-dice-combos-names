@@ -1,3 +1,4 @@
+README.md
 setup.py
 craps_pkg/__init__.py
 craps_pkg/craps_pkg.py
