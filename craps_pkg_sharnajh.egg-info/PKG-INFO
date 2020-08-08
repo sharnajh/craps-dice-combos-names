@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: craps-pkg-sharnajh
-Version: 0.1.125
+Version: 0.1.126
 Summary: Returns 2 dice rolls with associated craps nickname
 Home-page: https://github.com/sharnajh/craps_pkg.git
 Author: Sharna Hossain
@@ -9,9 +9,8 @@ License: BSD 2-clause
 Description: # Craps Nicknames
         
         Craps Nicknames is a tiny Python package that returns a randomized dice roll with it's associated craps nickname. The nicknames are based on the following chart by [Vital Vegas](https://vitalvegas.com/colorful-nicknames-dice-combinations-craps/):
-        ![Craps Nicknames Charts]
         
-        (https://vitalvegas.com/wp-content/uploads/2015/02/craps_dice_rolls_updated.jpg)
+        ![Craps Nicknames Charts](https://vitalvegas.com/wp-content/uploads/2015/02/craps_dice_rolls_updated.jpg)
         
         ## Installation
         
