@@ -29,11 +29,11 @@ craps_pkg.get_combo_name([2,2]) # returns "Ballerina"
 
 craps_pkg.get_dice_combos()
 # returns {
-    # 'Snake Eyes': [1, 1],
-    # 'Australian yo': [1, 2],
-    # ...
-    # 'Six five no jive': [6, 5],
-    # 'Midnight': [6, 6]
+#   'Snake Eyes': [1, 1],
+#   'Australian yo': [1, 2],
+#   ...
+#   'Six five no jive': [6, 5],
+#   'Midnight': [6, 6]
 # }
 ```
 
