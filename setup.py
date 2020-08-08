@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='craps-pkg-sharnajh',
-    version='0.1.12',
+    version='0.1.124',
     description='Returns 2 dice rolls with associated craps nickname',
     long_description=long_description,
     long_description_content_type="text/markdown",

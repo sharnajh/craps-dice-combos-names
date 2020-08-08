@@ -40,14 +40,22 @@ dice_combos = {
 }
 
 
+def check_combo(dice_pair):
+    for nickname, combo in dice_combos.items():
+        if dice_pair == combo:
+            return nickname
+
+
 def craps_roll():
     dice_pair = []
     dice_pair.append(random.randint(1, 6))
     dice_pair.append(random.randint(1, 6))
-    for nickname, combo in dice_combos.items():
-        if dice_pair == combo:
-            combo_name = nickname
+    combo_name = check_combo(dice_pair)
     return {
         "dice_pair": dice_pair,
         "nickname": combo_name
     }
+
+
+def get_combo_name(dice_pair):
+    return check_combo(dice_pair)

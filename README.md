@@ -13,7 +13,13 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install craps-p
 import craps_pkg
 
 craps_pkg.craps_roll()
-# returns {"dice_pair": [1,2], "nickname": "Australian yo"}
+# returns {
+# "dice_pair": [1,2],
+# "nickname": "Australian yo"
+# }
+
+craps_pkg.get_combo_name([2,2])
+# returns "Ballerina"
 ```
 
 ## Contributing

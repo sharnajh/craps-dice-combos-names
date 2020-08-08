@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: craps-pkg-sharnajh
-Version: 0.1.12
+Version: 0.1.124
 Summary: Returns 2 dice rolls with associated craps nickname
 Home-page: https://github.com/sharnajh/craps_pkg.git
 Author: Sharna Hossain
@@ -21,7 +21,13 @@ Description: # Craps Nicknames
         import craps_pkg
         
         craps_pkg.craps_roll()
-        # returns {"dice_pair": [1,2], "nickname": "Australian yo"}
+        # returns {
+        # "dice_pair": [1,2],
+        # "nickname": "Australian yo"
+        # }
+        
+        craps_pkg.get_combo_name([2,2])
+        # returns "Ballerina"
         ```
         
         ## Contributing
