@@ -8,6 +8,9 @@ Craps Nicknames is a tiny Python package that returns a randomized dice roll wit
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install craps-pkg.
+```python
+pip install craps-pkg-sharnajh
+```
 
 ## Usage
 
