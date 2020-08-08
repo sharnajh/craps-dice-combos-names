@@ -1,7 +1,5 @@
 # Craps Nicknames
 
-[![Coverage Status](https://coveralls.io/repos/github/sharnajh/craps-dice-combos-names/badge.svg?branch=master)](https://coveralls.io/github/sharnajh/craps-dice-combos-names?branch=master)
-
 Craps Nicknames is a tiny Python package that returns a randomized dice roll with it's associated craps nickname. The nicknames are based on the following chart by [Vital Vegas](https://vitalvegas.com/colorful-nicknames-dice-combinations-craps/):
 
 ![Craps Nicknames Charts](https://vitalvegas.com/wp-content/uploads/2015/02/craps_dice_rolls_updated.jpg)
