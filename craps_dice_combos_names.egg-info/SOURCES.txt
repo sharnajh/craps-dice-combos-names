@@ -1,0 +1,7 @@
+README.md
+setup.py
+craps_dice_combos_names.egg-info/PKG-INFO
+craps_dice_combos_names.egg-info/SOURCES.txt
+craps_dice_combos_names.egg-info/dependency_links.txt
+craps_dice_combos_names.egg-info/top_level.txt
+craps_pkg/__init__.py
