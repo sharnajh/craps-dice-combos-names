@@ -59,3 +59,6 @@ def craps_roll():
 
 def get_combo_name(dice_pair):
     return check_combo(dice_pair)
+
+def get_dice_combos():
+    return dice_combos

@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='craps-dice-combos-names',
-    version='0.1.127.1',
+    version='0.1.127.2',
     description='A miniscule library for generating and identifying dice combos in craps',
     long_description=long_description,
     long_description_content_type="text/markdown",

@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: craps-dice-combos-names
-Version: 0.1.127.1
+Version: 0.1.127.2
 Summary: A miniscule library for generating and identifying dice combos in craps
 Home-page: https://github.com/sharnajh/craps_pkg.git
 Author: Sharna Hossain
@@ -15,8 +15,9 @@ Description: # Craps Nicknames
         ## Installation
         
         Use the package manager [pip](https://pip.pypa.io/en/stable/) to install craps-pkg.
+        
         ```python
-        pip install craps-pkg-sharnajh
+        pip install craps-dice-combos-names
         ```
         
         ## Usage
@@ -30,8 +31,16 @@ Description: # Craps Nicknames
         # "nickname": "Australian yo"
         # }
         
-        craps_pkg.get_combo_name([2,2])
-        # returns "Ballerina"
+        craps_pkg.get_combo_name([2,2]) # returns "Ballerina"
+        
+        craps_pkg.get_dice_combos()
+        # returns {
+        #   'Snake Eyes': [1, 1],
+        #   'Australian yo': [1, 2],
+        #   ...
+        #   'Six five no jive': [6, 5],
+        #   'Midnight': [6, 6]
+        # }
         ```
         
         ## Contributing
