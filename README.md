@@ -104,6 +104,7 @@ def combo_pairs():
 ```
 
 Output:
+```
 # {
 #   'Snake Eyes': [1, 1],
 #   'Australian yo': [1, 2],
@@ -111,6 +112,7 @@ Output:
 #   'Six five no jive': [6, 5],
 #   'Midnight': [6, 6]
 # }
+```
 
 ## Contributing
 
